@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "window.customTitleBarVisibility": "auto",
+        "window.titleBarStyle": "custom",
+        "titleBar.activeBackground": "#008C80",
+        "titleBar.activeForeground": "#E7FFFD",
+        "titleBar.inactiveBackground": "#00A193",
+        "titleBar.inactiveForeground": "#E7FFFD",
+        "titleBar.border": "#008C80",
+    }, 
+}
