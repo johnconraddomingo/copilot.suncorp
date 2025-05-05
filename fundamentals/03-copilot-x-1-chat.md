@@ -12,10 +12,33 @@ It all really started with just "Ask", and it wasn't branded as such in the begi
 
 Let's now explore the benefits of GitHub Copilot Chat, a conversational interface that allows developers to interact with GitHub Copilot in natural language and get instant feedback and suggestions for your code challenges or needs. 
 
+In this bit, we'll cover the differences between the inline CTRL+i vs this chat window.
 
 ## New Session in Chat
 
-Copilot chat supports multiple sessions. Click the + symbol at the top of CHAT to create a new session.
+Copilot Chat supports multiple sessions. Click on **...** at the top right of the Chat window and choose **Open Chat in New Window**.
+Notice that you can drag it around. You can even turn it into an editor if you drag the tab to the middle.
+
+## Quickly add Context
+Another benfit of Copilot Chat is that it allows you to very easily add context. Let's see that in action
+
+1. Let's go to [app.js](/exercise/javascript/config/app.js). While we're at it, let's have a look as well at [config.js](/exercise/javascript/config/config.js), which contains the configuration for our application
+2. Put your cursor on the empty space in Line 5 of app.js. Notice in the chat window that it gets automatically added as a context: pretty much the same thing happens on inline prompting when you think about it.
+3. Add this this prompt into the chat
+
+``` plaintext
+Can you please help me add a database connection logic here
+```
+Notice that it gives us an example, but it's not very specific to what we need.
+
+4. This time, drag [config.js](/exercise/javascript/config/config.js) into the chat window so it can be added as a context. 
+
+5. Now that the context is added, let's clear the chat window for new context
+
+``` plaintext
+Can you please help me add a database connection logic here
+```
+Notice that this time, we get a very specific answer. It gives us a database connection that uses the configuration as per my context. I didn't even change the prompt, but because we added context, we're telling Github Copilot to take these extra files into consideration.
   
 ## Understanding Prompt Crafting
 
