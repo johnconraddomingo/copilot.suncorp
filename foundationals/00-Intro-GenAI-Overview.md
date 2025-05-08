@@ -74,8 +74,6 @@ There's something called a knowledge cut-off, which means our AI models only kno
 | Claude 3.5 Sonnet | April 2024            |
 | Claude 3.7 Sonnet | August 2024           | 
 
-So if let's say the election is today, and Abi becomes our Prime Minister, chances are, Generative AI would not know about it until the next time training data has been fed into it.
-
 > **Share this URL** https://github.com/HaoooWang/llm-knowledge-cutoff-dates
 > 
 > **You can also show an example asking Github Copilot when their last knowledge cutoff is. Make sure you change the model dropdown accordingly**

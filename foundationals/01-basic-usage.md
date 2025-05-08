@@ -6,7 +6,7 @@
 
 ## Demos
 
-In this first demo, we're going to explore the core functionality of GitHub Copilot, which is Code Completion. 
+In this demo, we're going to explore the core functionality of GitHub Copilot, which is Code Completion. 
 
 We are going to learn the basics of how you can leverage this AI-powered tool to enhance your coding experience.
 
