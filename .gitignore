@@ -1,3 +1,6 @@
 # Ignore coverage folder
 coverage/
 .idea
+presentations/~$* 
+exercise/**/bin
+exercise/**/obj

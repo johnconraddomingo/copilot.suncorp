@@ -32,11 +32,7 @@ For example, the `Javascript` workshop has a [README.md](./exercise/javascript/R
 ## Getting Started
 
 In order to get started with this training, you will need to install the GitHub Copilot extension in your VS Code. Once you have installed the extension, you can start following along the demos and exercises provided in this training course.
-
-## For Trainers
-
-If you are a trainer, follow the [Training Guide](./docs/training-guide.md) for guide on how to conduct the training session.
-
+ 
 ## Exercises
 
 Individual workshops have their own exercises. These exercises are designed to help you practice and apply the concepts covered in the workshops. You can find the exercises in the `exercise` directory of each workshop.
