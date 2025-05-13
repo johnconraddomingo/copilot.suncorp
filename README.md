@@ -37,9 +37,8 @@ In order to get started with this training, you will need to install the GitHub 
 
 Individual workshops have their own exercises. These exercises are designed to help you practice and apply the concepts covered in the workshops. You can find the exercises in the `exercise` directory of each workshop.
 
-There is also a `complete` directory of each workshop that contains the completed code for the exercises. You can refer to this directory to see the final state of the exercises.
-
-For example, for the `Javascript` workshop, the exercises can be found on the `./exercise/javascript` directory while the completed code can be found on the `./complete/javascript` directory.
+## Challenges
+You can find extra challenges in the `challenges` directory. These are extra exercises that are not particularly covered in training, but can be introduced as Hackathon-style challenges or as homework to participants.
 
 ## Live exercises and self-paced coding challenges
 
