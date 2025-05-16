@@ -4,7 +4,10 @@
 
 Welcome to an exercise on building a simple Data Analysis application in Python using Streamlit with GitHub Copilot! In this exercise, you will learn how to create an interactive tool that can visualize data from a CSV file.
 
-<img src="../../../images/Streamlit-full-app.png" alt="Streamlit Full App" width="600">
+
+
+
+<img src="../../../images/streamlit/Streamlit-full-app.png" alt="Streamlit Full App" width="600">
 
 ## Pre-requisites
 
@@ -137,7 +140,7 @@ Select the file under [complete/csv/usage.csv](../../../complete/csv/usage.csv) 
 
 Once uploaded, a table should display below the upload component showing the data from the CSV file.
 
-<img src="../../../images/Streamlit-table.png" alt="Line Chart" width="400">
+<img src="../../../images/streamlit/Streamlit-table.png" alt="Line Chart" width="400">
 
 ## Exercise 2: Add a line chart to visualize the data
 
@@ -145,7 +148,7 @@ Once uploaded, a table should display below the upload component showing the dat
 
 > Tip: Tell copilot to use the exact names of the columns available from the CSV file.
 
-<img src="../../../images/Streamlit-Line-Chart.png" alt="Line Chart" width="400">
+<img src="../../../images/streamlit/Streamlit-Line-Chart.png" alt="Line Chart" width="400">
 
 ## Exercise 3: Add a date filter using a date picker and sidebar
 

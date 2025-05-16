@@ -123,39 +123,12 @@ The @workspace feature in Visual Studio Code and GitHub Copilot Chat uses AI to 
 
 ## Ask Copilot to find a file or files based on your needs
 
-## Try it out
-
 (Open the Chat window)
 ```text
 @workspace Search for python files where I can find helper functions that validates phone, email and url
 ```
 Hit `Enter` and see what Copilot comes back with.
 
-# @workspace - #file
-
-Another feature under the @workspace helper is the `#file`, which allows you to reference a file when asking a query to Copilot Chat.
-
-## Try it out
-
-**_Do not copy and paste. Once you've typed #file: you'll be asked to select the file. Search for utilities.js and select it._**
-
-```text
-@workspace explain the contents of the #file:utilities.js
-```
-Here's another example
-
-```text
-@workspace Generate a shopping cart html prototype using the pattern found in #file:demo.html
-```
-(choose complete\javascript\demo.html)
-
-Review chat's response
-
-Using @workspace, you can ask Copilot to create a starting point for a Readme.md file.
-```text
-@workspace Generate a readme.md file about this python file #file:app.py.
-```
-(Under complete\python\streamlit)
 
 # @workspace - Analyze project
 
@@ -165,16 +138,7 @@ The @workspace command is more than a file finder.
 Suppose you've just cloned a new project to work on, and you're eager to understand its core components—like the programming languages utilized and the functionalities it provides.
 
 You can get a quick overview by using GitHub Copilot's chat feature. Simply input the following query:
-
-## Try it out
-
-1. Under the File menu in VS Code, select New Window
-2. Open the [complete\memory-game](\complete\memory-game) folder
-3. In the Chat window, type the following:
-
-```text
-@workspace analyze this project. Provide a summary of the programming languages utilized and outline the available functionalities.
-```
+ 
 
 # Quick Recommendations
 
@@ -183,11 +147,7 @@ You can also ask with @workspace on basic recommendations.
 
 ```text
 @workspace based on leading practices, what are your recommendations that developers may need to follow to improve this application?
-```
-
-Let's try it out again on the [complete\memory-game](\complete\memory-game) project
-
-Switch to [complete\memory-game](\complete\memory-game)
+``` 
 
 ### Reminder: Copilot should not replace a full Code Analysis tool and the developer's intuition about the project
 
@@ -211,8 +171,4 @@ Domain specific helpers from GitHub Copilot
 
 These handy helpers can provide you answers to questions relevant to VS Code or executing commands from the Terminal window.
 
-# Additional Features Q&A
-
-
-
-## Check time/Break
+# Additional Features Q&A 

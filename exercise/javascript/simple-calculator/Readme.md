@@ -100,8 +100,4 @@ Ask Copilot to improve the UI to make it look more like a real calculator. In th
 
 ```
 Let's improve the index.html to provide a real calculator interface.
-```
-
-8. **Completed Exercise**:
-
-Find the completed exercise in the `complete/simple-calculator` directory. You can review the code changes, tests, and the improved calculator interface.
+``` 

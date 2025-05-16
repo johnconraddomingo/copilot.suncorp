@@ -106,9 +106,6 @@ After the last addTask() line, press `Enter` twice then start typing `compl`, Co
 
 # Additional Suggestions
 
-## Additional Suggestions Shortcut
-### Ctrl + Enter (Both Windows and Mac).
-
 ## Try it out
 
 1. Let's go to [demo.js](/exercise/javascript/demo.js). 
@@ -121,11 +118,7 @@ After the last addTask() line, press `Enter` twice then start typing `compl`, Co
 ```javascript
 // Create a function that calculates the sum of the two lowest numbers given an array of 5 positive integers. Display the two lowest numbers in the array.
 ```
-5. Wait for Copilot to suggest all the parameters (not the entire function yet) then press Ctrl+Enter to view Copilot's additional suggestion pane.
-
-After pressing Ctrl+Enter, you should see a new pane showing the **Additional Suggestions pane**
-
-Select the suggestion that satisfies your requirement.
+There used to be a dedicated pane for going throug h Copilot's suggestions, but in the newer releases, that's been replaced by **Alt+]**
 
 > Demo Tip: Rephrase the comment or a different function name if Copilot fails to generate additional suggestions.
 

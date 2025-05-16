@@ -82,7 +82,7 @@ Let's talk about the different AI models. Github copilot *acts* like a frontend.
 
 Ultimately, the strength of each model is determined by you. For example, I found that GPT is very weak in Azure DevOps pipelines, but Claude does a better job. GPT though is very good at Github Actions... And there is no scenario where I've ever found Gemini to be useful. Maybe that's changed since the last time i've used it. If that's so, then good job, but Gemini is always my last pick. 
 
-And look, if you don't get what you're after from one model, then ask the same question to another model, and see if it gives you a better result!
+If you don't get what you're after from one model, then ask the same question to another model, and see if it gives you a better result!
 
   [![GitHub Universe 2024](https://img.youtube.com/vi/FhVuX6Pyo9k/0.jpg)](https://www.youtube.com/embed/FhVuX6Pyo9k?si=sq_vnkLqxFtqtyWc)
 
@@ -97,7 +97,7 @@ GitHub Copilot is now available directly in your browser on GitHub.com. This fea
 
 ### Demo: Copilot in GitHub.com
 
-Navigate to https://github.com/johnconraddomingo/copilot.suncorp
+Navigate to a repository in GitHub.com
 
 You can find the Copilot Chat icon at the top area of the repository page. Click on the icon to open the Copilot Chat interface. It will show `Chat with Copilot` when you hover over the icon.
 
