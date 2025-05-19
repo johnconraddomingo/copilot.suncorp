@@ -4,3 +4,5 @@ coverage/
 presentations/~$* 
 exercise/**/bin
 exercise/**/obj
+exercise/javascript/node_modules
+exercise/javascript/package*.json
