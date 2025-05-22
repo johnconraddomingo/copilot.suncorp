@@ -1,5 +1,10 @@
 # Basic Usage
 
+> Ask for a thumbs up
+
+## Slide 13
+![Slide 13](/images/docs-images/foundational/Slide-13.png)
+
 ## IDE Choices
 
 **Demonstrate how to use GitHub Copilot on IntelliJ and Visual Studio**
@@ -294,4 +299,5 @@ When using Code Completions, remember these Four T's
 
 # Basic Usage Questions
 
-> 5 mins Q&A
+> **Q&A**
+> <br/>Do you need to take a break?

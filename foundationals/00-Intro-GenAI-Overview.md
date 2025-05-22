@@ -1,18 +1,34 @@
-# Speaker Introduction
+# Welcome
+## Slide 1
+![Slide 1](/images/docs-images/foundational/Slide-1.png)
 
+
+# Getting Started
 ## Slide 2
+![Slide 2](/images/docs-images/foundational/Slide-2.png)
 
-![GenAI Overview Slide 2](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-2.png)
-
-**Introductions**
-
-**Reiterate the purpose of the foundations training**
-
-# Generative AI Overview
+**Go through the housekeeping rules**
 
 ## Slide 3
 
-![GenAI Overview Slide 3](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-3.png)
+![Slide 3](/images/docs-images/foundational/Slide-3.png)
+
+**Make a clear outline of what you'll be covering through the session**
+
+## Slide 4
+![Slide 4](/images/docs-images/foundational/Slide-4.png)
+
+**Go through the Responsible AI Guidelines**
+
+We wanted to remind you once again of the Responsible use of AI policies, and we wanted to highlight the first 2 items: 
+1. First is: "own the output". Copilot is here to help you build better codes faster, but keep in mind, the accountability falls on you. I always think of it like consulting to a human. If I run to a colleague, and I go, "Can you please help me with this code?", and he obliges, and you commit the codes, and production blows up. "It's his fault! He gave me bad code!". No. Accountability falls on you. If you refer to Google or Stack Overflow and something goes bad, you wouldn't blame a URL. The same goes with Copilot. It is just another way for you to be able to get support.
+2. Secondly: Review, refine and verify. We don't blindly accept suggestions, and more importantly, if you can't explain the codes that is spit out by GitHub Copilot... Should you really be checking it in? You can use Copilot for learning, you can ask it to explain code, but if you don't understand the code, you just know that it runs, should you be really committing it and stamping it with your name?
+
+# Generative AI Overview
+
+## Slide 5
+
+![Slide 5](/images/docs-images/foundational/Slide-5.png)
 
 To help developers understand how GitHub Copilot works, we will introduce Generative AI. Powered by models like OpenAI’s GPT, this technology predicts text instead of searching for it. GitHub Copilot uses these capabilities, running on Azure, to provide intelligent code suggestions. 
 
@@ -80,16 +96,18 @@ There's something called a knowledge cut-off, which means our AI models only kno
 
 Finally, we can enhance these AI models using techniques like Function Calling, Retrieval Augmented Generation (RAG), or fine-tuning. This is similar to giving our artist new tools or lessons to improve their skills and creativity. These topics are more advanced and require a deeper dive, so we're not going to cover them in this session.
 
-## Slide 4
+## Slide 6
 
-![GenAI Overview Slide 4](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-4.png)
+![Slide 6](/images/docs-images/foundational/Slide-6.png)
+
+**Make sure you cover all the definitions**
 
 Let's have a look at this image for an overview of just how Github Copilot works with data. 
 So from our IDE, we feed Copilot with the context of our question: that means the codes that we need to be looked at, the other relevant codes, manual input telling the result that we're expecting and other relevant information. It then goes to Copilot's backend service which relies on a large language model (LLM) to generate responses or code suggestions using publicly available data combined with the context
 
-## Slide 5
+## Slide 7
 
-![GenAI Overview Slide 5](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-5.png)
+![Slide 7](/images/docs-images/foundational/Slide-7.png)
 
 GitHub Copilot is an IDE extension that integrates directly into your development environment, such as Visual Studio Code. It provides real-time code suggestions, similar to how ESLint checks for coding errors and styling issues, helping you stay focused on development.
  
@@ -98,21 +116,21 @@ Additionally, GitHub Copilot is available on GitHub.com through a browser:
 - Use it as a general chat interface, similar to ChatGPT, to generate code snippets or brainstorm ideas. Simply visit [GitHub Copilot](https://github.com/copilot) and log in with your GitHub account.
 - Chat about your repository directly from the browser. If you have access to GitHub Copilot on GitHub.com, you can launch the chat interface by clicking the GHCP icon in the top navigation when viewing a repository. This is useful when you need to work on a repo but don't have your IDE set up yet or are new to the project.
 
-## Slide 6
+## Slide 8
 
-![GenAI Overview Slide 6](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-6.png)
+![Slide 8](/images/docs-images/foundational/Slide-8.png)
 
 GitHub Copilot (GHCP) is an extension, not standalone software. Like other tools, it enhances productivity by integrating into your development environment.
 
-## Slide 8
+## Slide 9
 
-![GenAI Overview Slide 8](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-8.png)
+![Slide 9](/images/docs-images/foundational/Slide-9.png)
 
 To use GitHub Copilot (GHCP), you need a license tied to a GitHub account (personal or corporate). During authentication, GitHub.com checks your license and, if valid, provides a Copilot token. Your IDE plugin then uses this token to send prompts to the Copilot Proxy, which works with OpenAI GPT models to suggest code in your IDE. This process ensures only authorized users get AI-driven suggestions, preserving both functionality and compliance.
  
-## Slide 9
+## Slide 10
 
-![GenAI Overview Slide 9](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-9.png)
+![Slide 10](/images/docs-images/foundational/Slide-10.png)
 
 * The Copilot Proxy Service manages key tasks like user authentication, sentiment analysis to block abusive language, and filters for security, basic PII, and duplicates. It also has an Open Source Software (OSS) filter to avoid reusing potentially copyrighted code.
 
@@ -120,9 +138,9 @@ To use GitHub Copilot (GHCP), you need a license tied to a GitHub account (perso
 
 If Copilot offers code that seems copyrighted, you can reword your request to push Copilot to create a different version. For example, instead of “Generate a simple HTML for signing up for a newsletter,” try “Create an HTML form with an email field and a message saying ‘Subscribe to our newsletter to keep yourself updated.’” 
 
-## Slide 10
+## Slide 11
 
-![GenAI Overview Slide 10](/images/docs-images/00-intro-genai-overview/GenAI-Overview-Slide-10.png)
+![Slide 11](/images/docs-images/foundational/Slide-11.png)
 
 **Trust, but verify** is the guiding principle when using GitHub **Copilot**. Think of Copilot as a smart assistant in your workshop. While it's incredibly **powerful**, it might sometimes suggest code that isn't quite right or optimal. Just like you wouldn't take advice without checking, always **verify** its suggestions to ensure your code is **accurate** and **reliable**.
 
@@ -139,3 +157,5 @@ You are the pilot. GitHub Copilot is only your assistant, not the source of trut
 
 For more information about GitHub Copilot's security and compliance measures, visit the [GitHub Copilot Trust-Center](https://copilot.github.trust.page/faq#ip-and-open-source).
  
+> **Q&A**
+> <br/>Do you need to take a break?

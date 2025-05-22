@@ -1,4 +1,10 @@
 # Copilot Chat Features
+
+> Ask for a thumbs up
+
+## Slide 16
+![Slide 16](/images/docs-images/foundational/Slide-16.png)
+
 So far, when we're talking to Github Copilot, if you look at the bottom right, next to the model, you'll see it says "Ask" as a default. If you click on it, you get options:
 * Ask
 * Edit
@@ -280,8 +286,5 @@ I want to learn how to use ReactJS, TypeScript and Redux by creating a tic tac t
 ```
 
 
-# GitHub Copilot Chat Q&A
-
-> 5 mins Q&A
-
-## Check time/Break
+> **Q&A**
+> <br/>Do you need to take a break?

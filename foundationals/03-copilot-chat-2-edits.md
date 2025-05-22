@@ -1,5 +1,10 @@
 # Copilot Edits
 
+> Ask for a thumbs up
+
+## Slide 17
+![Slide 17](/images/docs-images/foundational/Slide-17.png)
+
 Use Copilot Edits, also called Copilot Suggestions, to start an AI-powered code editing session where you can quickly iterate on code changes by using natural language. Based on your prompts, Copilot Edits autonomously writes the code across multiple files in your workspace. These edits are applied directly in the editor, so you can quickly review them in-place, with the full context of the surrounding code.
 
 In this exercise, you'll learn how to use GitHub Copilot's editing capabilities within Visual Studio Code (VS Code) to efficiently enhance and expand a basic web application.
@@ -61,3 +66,6 @@ git reset --hard <hash id>
 ```
 
 [![GitHub Universe 2024](https://img.youtube.com/vi/ZCkh1YUa9Io/0.jpg)](https://www.youtube.com/embed/ZCkh1YUa9Io?si=2D3Du46385DyKU3V)
+
+> **Q&A**
+> <br/>Do you need to take a break?

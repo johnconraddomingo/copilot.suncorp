@@ -1,5 +1,10 @@
 # Setting Developer Preferences
 
+> Ask for a thumbs up
+
+## Slide 19
+![Slide 19](/images/docs-images/foundational/Slide-19.png)
+
 ## Disable / Enable GitHub Copilot
 
 If you have a valid reason to do so, you can toggle Copilot suggestions off temporarily.
@@ -60,6 +65,5 @@ Ctrl+E, X (/explain)
 Ctrl+E, F (/fix)
 ```
 
-# Developer Preferences Q&A
-
-> 2 mins Q&A
+> **Q&A**
+> <br/>Do you need to take a break?

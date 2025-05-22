@@ -1,5 +1,10 @@
 # GitHub Copilot Agent
 
+> Ask for a thumbs up
+
+## Slide 18
+![Slide 18](/images/docs-images/foundational/Slide-18.png)
+
 The GitHub Copilot Agent is an advanced feature of GitHub Copilot that acts as a context-aware assistant. It goes beyond traditional code suggestions by enabling developers to automate tasks and interact with their development environment in a more dynamic way. 
 
 ## Exercise: Creating a brand new application
@@ -66,3 +71,6 @@ Let's say, you want to start a NextJS project, you can ask Copilot to scaffold a
 ```plaintext
 I want to start a NextJS project. Can you please help me setup a local dev environment?
 ```
+
+> **Q&A**
+> <br/>Do you need to take a break?

@@ -1,5 +1,10 @@
 # GitHub Copilot Additional Features Part 1
 
+> Ask for a thumbs up
+
+## Slide 14
+![Slide 14](/images/docs-images/foundational/Slide-14.png)
+
 # Introduction to slash commands
 
 GitHub Copilot offers interactive features beyond passive code suggestions. Let's explore commands that can accelerate your workflow and handy tools for quick documentations, explaining code snippets, and locating files or functions.
@@ -170,5 +175,6 @@ Domain specific helpers from GitHub Copilot
 ```
 
 These handy helpers can provide you answers to questions relevant to VS Code or executing commands from the Terminal window.
-
-# Additional Features Q&A 
+  
+> **Q&A**
+> <br/>Do you need to take a break?

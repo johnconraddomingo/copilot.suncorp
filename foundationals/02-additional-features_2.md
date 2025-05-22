@@ -1,5 +1,10 @@
 # GitHub Copilot Additional Features Part 2
 
+> Ask for a thumbs up
+
+## Slide 15
+![Slide 15](/images/docs-images/foundational/Slide-15.png)
+
 ## Pre-requisites
 
 Some of the exercises will require Node.js installed on your machine. You can download the latest version of Node.js from the [official website](https://nodejs.org/).
@@ -165,3 +170,6 @@ These instructions give context to GitHub Copilot, making its code suggestions m
 ## GitHub Copilot Official Features Documentation
 
 For more information on GitHub Copilot's official features, visit the [GitHub Copilot Documentation](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features).
+
+> **Q&A**
+> <br/>Do you need to take a break?
