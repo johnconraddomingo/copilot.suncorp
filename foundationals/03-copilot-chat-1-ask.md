@@ -59,7 +59,7 @@ Let's see how Chat will respond to a non-coding related question.
 
 > `Provide me the recipe for a chicken casserole`
 
-As anticipated, Copilot focuses on programming support and will not provide a recipe. GitHub's AI training ensures it prioritizes coding assistance.
+Because copilot focuses on programming support, it may not provide the recipe. GitHub's AI training ensures it prioritizes coding assistance.
 
 ## The three S's of Prompt Crafting
 

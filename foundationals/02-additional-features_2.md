@@ -167,6 +167,22 @@ Our team uses Azure DevOps for tracking items of work.
 
 These instructions give context to GitHub Copilot, making its code suggestions more relevant to your project's needs. Custom Instructions save you from typing these details every time you use Copilot.
 
+> **Ask: What other scenarios can you think of where this feature can be used?**
+
+## Demo: Exclusions
+
+Maybe you wanted to hide specific files from Copilot's eyes. In which case, what you'd want to do is create a .copilotignore file in the root directory. It should look like so:
+
+```
+# Exclude specific files
+sensitive-data.env
+user-secrets.yaml
+
+# Exclude a directory
+temp/
+```
+
+
 ## GitHub Copilot Official Features Documentation
 
 For more information on GitHub Copilot's official features, visit the [GitHub Copilot Documentation](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features).
