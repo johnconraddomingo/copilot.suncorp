@@ -126,11 +126,17 @@ GitHub Copilot (GHCP) is an extension, not standalone software. Like other tools
 
 ![Slide 9](/images/docs-images/foundational/Slide-9.png)
 
-To use GitHub Copilot (GHCP), you need a license tied to a GitHub account (personal or corporate). During authentication, GitHub.com checks your license and, if valid, provides a Copilot token. Your IDE plugin then uses this token to send prompts to the Copilot Proxy, which works with OpenAI GPT models to suggest code in your IDE. This process ensures only authorized users get AI-driven suggestions, preserving both functionality and compliance.
- 
+GitHub Copilot supports the world's most popular code editors.
+
 ## Slide 10
 
 ![Slide 10](/images/docs-images/foundational/Slide-10.png)
+
+To use GitHub Copilot (GHCP), you need a license tied to a GitHub account (personal or corporate). During authentication, GitHub.com checks your license and, if valid, provides a Copilot token. Your IDE plugin then uses this token to send prompts to the Copilot Proxy, which works with OpenAI GPT models to suggest code in your IDE. This process ensures only authorized users get AI-driven suggestions, preserving both functionality and compliance.
+ 
+## Slide 11
+
+![Slide 11](/images/docs-images/foundational/Slide-11.png)
 
 * The Copilot Proxy Service manages key tasks like user authentication, sentiment analysis to block abusive language, and filters for security, basic PII, and duplicates. It also has an Open Source Software (OSS) filter to avoid reusing potentially copyrighted code.
 
@@ -138,9 +144,9 @@ To use GitHub Copilot (GHCP), you need a license tied to a GitHub account (perso
 
 If Copilot offers code that seems copyrighted, you can reword your request to push Copilot to create a different version. For example, instead of “Generate a simple HTML for signing up for a newsletter,” try “Create an HTML form with an email field and a message saying ‘Subscribe to our newsletter to keep yourself updated.’” 
 
-## Slide 11
+## Slide 12
 
-![Slide 11](/images/docs-images/foundational/Slide-11.png)
+![Slide 12](/images/docs-images/foundational/Slide-12.png)
 
 **Trust, but verify** is the guiding principle when using GitHub **Copilot**. Think of Copilot as a smart assistant in your workshop. While it's incredibly **powerful**, it might sometimes suggest code that isn't quite right or optimal. Just like you wouldn't take advice without checking, always **verify** its suggestions to ensure your code is **accurate** and **reliable**.
 
